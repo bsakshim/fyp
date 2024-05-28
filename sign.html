@@ -1,0 +1,88 @@
+<html>
+<head>
+    <style>
+         body {
+            font-family: Arial, sans-serif;
+            background-image: url(home2.jpeg);
+            background-size: auto;
+            background-repeat: no-repeat;
+            opacity: 0.9;
+            
+         }
+        .img1 {
+            float: right;
+            bottom: 50%;
+           
+            padding: 476px 30px;
+            border-radius: 30px;
+            left: 10%;
+            
+           width: 20%;
+
+        } 
+        
+        /* Style the form */
+        .form {
+            border: 3px solid #0b0b0b;
+            width: 50%;
+            margin: auto;
+        }
+
+        /* Style the input fields */
+        input[type=text], input[type=password], input[type=email] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        /* Style the submit button */
+        input[type=submit] {
+            background-color: #181717;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        /* Style the header */
+        .header {
+            padding: 16px;
+            font-size: 24px;
+            text-align: center;
+            background-color: #333;
+            color: rgb(250, 249, 249);
+        }
+        .intr {
+            background-color: antiquewhite;
+
+        }
+    </style>
+</head>
+<body>
+   
+    <div class="form">
+        <div class="header">
+            <h1>Registration Form</h1>
+        </div>
+        <div class="intr">
+        <form action="/register" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+            <input type="submit" value="Register">
+        </form>
+    </div>
+    </div>
+</body>
+</html>

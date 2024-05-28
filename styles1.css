@@ -1,0 +1,88 @@
+/* Reset some default styles for cross-browser consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Add your styles for the website here */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(home1.jpeg);
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: #009688;
+    color: #fff;
+    padding: 10px;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero {
+    background-image: url('your-background-image.jpg');
+    background-size: cover;
+    color: whitesmoke;
+    text-align: center;
+    padding: 100px 0;
+    font-size: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #009688;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.feature {
+    text-align: center;
+}
+
+
+    footer {
+        padding: 22px;
+        margin: 350px;
+        text-align: center;
+        background-color: #ffffff;
+        
+       
+        box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    footer p {
+        font-size: 14px;
+        color: #333333; 
+    }
+    
+    .container {
+        text-align: center;
+        text-transform: uppercase;
+        text-rendering: optimizeSpeed;
+        margin-left: 13%;
+       
+        
+    }
